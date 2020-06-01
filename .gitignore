@@ -2,6 +2,9 @@
 wasm
 a.out
 
+#wasm
+wasm.*
+
 #obj
 *.o
 
