@@ -1,8 +1,9 @@
 #include <stdio.h>
+#include "wasm.h"
 
 int main(int ac, char **av) {
 	(void)ac;
 	(void)av;
-	printf("hello world!\n");
+	say_hi();
 	return (0);
 }
